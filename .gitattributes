@@ -1,2 +1,145 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# paginaweb
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MundoVerde - Tienda de Plantas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    header h1 {
+      display: inline;
+    }
+
+    header img {
+      width: 20px;
+      height: 20px;
+      vertical-align: middle;
+    }
+
+    nav {
+      margin-bottom: 20px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    .carousel {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .carousel img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .carousel p {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #777;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 12px;
+      color: #777;
+    }
+
+    .green {
+      background-color: #c1e1c1;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1><img src="leaf-icon.png" alt="Hoja"> MundoVerde</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#perfil">Perfil</a></li>
+        <li><a href="#carrito">Carrito de Compras</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#contacto">Contactenos</a></li>
+      </ul>
+    </nav>
+
+    <div class="green">
+      <h2>Perfil</h2>
+      <!-- Aquí puedes agregar un formulario de inicio de sesión y registro de usuarios -->
+    </div>
+
+    <div class="green">
+      <h2>Carrito de Compras</h2>
+      <!-- Aquí puedes agregar la funcionalidad del carrito de compras con la lista de productos seleccionados y su precio -->
+    </div>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="..." alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="..." alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="..." alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+    <div id="productos">
+      <h2>Productos</h2>
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="planta1.jpg" alt="Planta 1">
+            <p>Planta 1 - $15,000</p>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="planta2.jpg" alt="Planta 2">
+            <p>Planta 2 - $18,000</p>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="planta3.jpg" alt="Planta 3">
+            <p>Planta
